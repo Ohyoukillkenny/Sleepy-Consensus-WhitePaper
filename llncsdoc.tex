@@ -1,6 +1,3 @@
-% This is LLNCS.DOC the documentation file of
-% the LaTeX2e class from Springer-Verlag
-% for Lecture Notes in Computer Science, version 2.4
 \documentclass{llncs}
 \usepackage{llncsdoc}
 \begin{document}
@@ -82,11 +79,11 @@ $\bullet$&\multicolumn{3}{@{}l}{\bfseries Where to find our project?}\\[1mm]
 %
 \section{Introduction}
 
-\quad Consensus protocols are at the core of distributed computing and also provide a foundational building protocol for multi-party cryptographic protocols. In the paper about \emph{sleepy consensus} protocol \cite{Sleepy}, Rafael Pass and Elaine Shi propose a consensus protocol for realizing a “linearly ordered log” abstraction -- often referred to as state machine replication or linearizability in the distributed systems literature. They name it as \emph{sleepy consensus} protocol, which respects two important resiliency properties, i.e., consistency and liveness. And in \emph{sleepy consensus} model, players can be either online (alert) or offline (asleep), and their online status may change at any point during the protocol.
+\quad Consensus protocols are at the core of distributed computing and also provide a foundational building protocol for multi-party cryptographic protocols. In the paper about \emph{sleepy consensus} protocol \cite{Sleepy}, Pass and Shi propose a consensus protocol for realizing a “linearly ordered log” abstraction -- often referred to as state machine replication or linearizability in the distributed systems literature. They name it as sleepy consensus protocol, which respects two important resiliency properties, i.e., consistency and liveness. And in sleepy consensus model, players can be either online (alert) or offline (asleep), and their online status may change at any point during the protocol.
 
-In this paper, we build a simulator for monitoring the real-world performance of \emph{sleepy consensus} protocol by constructing a framework which implements \emph{sleepy consensus} protocol, as well as imitating behaviors of honest players and corrupted/adversarial players in the meanwhile. After analyzing the simulating results, \textbf{we know ... add text here}
+In this paper, we build a simulator for monitoring the real-world performance of sleepy consensus protocol by constructing a framework which implements sleepy consensus protocol, as well as imitating behaviors of honest players and corrupted/adversarial players in the meanwhile. After analyzing the simulating results, \textbf{we know ... add text here}
 
-This document is organized as follows. In Section 2, we introduce the framework of simulator. In Section 3, we present how honest players work while simulating. And in Section 4, we imitate the adversarial players' behavior and attack the \emph{sleepy consensus} protocol by several algorithms. We give the analysis of simulating results in Section 5. Finally, we draw conclusions in Section 6.
+This document is organized as follows. In Section 2, we introduce the framework of simulator. In Section 3, we present how honest players work while simulating. And in Section 4, we imitate the adversarial players' behavior and attack the sleepy consensus protocol by several algorithms. We give the analysis of simulating results in Section 5. Finally, we draw conclusions in Section 6.
 
 \section{The Framework of Simulator}
 %
